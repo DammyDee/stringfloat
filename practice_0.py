@@ -6,7 +6,7 @@ def isfloat(st: str):
     else:
         return False
 
-
-string = ".233"
-print(isfloat(string))
-print(float(string))
+if __name__ == "__main__":
+    string = ".233"
+    print(isfloat(string))
+    print(float(string))
